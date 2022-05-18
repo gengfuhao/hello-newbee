@@ -4,7 +4,7 @@
     <img :src="imgSrc" :alt="name" />
     <p class="name">{{ name }}</p>
     <p class="item_price">{{ price }}</p>
-    <p class="counter">{{ counter }}</p>
+    <!-- <p class="counter">{{ counter }}</p> -->
   </a>
 </template>
 
@@ -35,5 +35,12 @@ export default {
   border: none;
   text-decoration: none;
   color: #000;
+}
+
+.goods-link img {
+  width: 160px;
+  height: 160px;
+  opacity: 0.8;
+  margin: 37px;
 }
 </style>
